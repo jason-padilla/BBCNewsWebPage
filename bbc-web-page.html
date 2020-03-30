@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BBC Website</title>
+    <style type= "text/css">
+        #top-bar
+        {
+            width: 1200px;
+            margin: 0 auto;
+            height: 40px;
+        }
+        #logo
+        {
+            margin-top:8px;
+            width: 100px;
+            float: left;
+            margin-right: 8px;
+        }
+        .top-bar-panels
+        {
+            float:left;
+            height: 100%;
+            border-left: 2px solid rgb(212, 212, 212);
+        }
+        #sign-in-image
+        {
+            width: 25px;
+            margin:8px;
+            float: left;
+        }
+        #sign-in-text
+        {
+            font-weight: bold;
+            font-size: 90%;
+            position: relative;
+            margin-top: 11px;
+            float: left;
+            padding-right: 75px;
+        }
+        #wiggly-line
+        {
+            float: left;
+            height: 40px;
+        }
+        #bell-div
+        {
+            float: left;
+        }
+        #bell
+        {
+            height: 25px;
+            margin:8px;
+        }
+        body
+        {
+            font-family: Arial, Helvetica, sans-serif;
+            margin:0;
+            padding:0;
+           
+        }
+        .bar-spacing
+        {
+            font-weight: bold;
+            padding: 10px 20px;
+            height: 20px;
+        }
+        #search-bar
+        {
+            background-color: rgb(218, 218, 218);
+            border:none;
+            font-weight: bold;
+            font-size: 14px;
+            float: left;
+        }
+        #loopa
+        {
+            height: 19px;
+            float: left;
+         }
+
+        #red-bar
+        {
+            background-color: #BB1919;
+            width:100%;
+            height:70px
+        }
+        #red-top
+        {
+            width: 1200px;
+            margin: 0 auto;     
+        }
+
+        #red-top h1
+        {
+            color: white;
+            float: left;
+            font-weight: normal;
+            font-size: 40px;
+            margin:0px;
+            padding:10px 0px;
+        }
+
+        #local-news
+        {
+            float: right;
+            border: 1px solid white;
+            margin-top: 10px;
+            margin-right: 40px;
+        }
+
+        #local-news a
+        {
+            color: white;
+            font-size: 25px;
+            text-decoration: none;
+            float: left;
+            padding: 10px;
+        }
+
+        #local-news a:hover
+        {
+            text-decoration: underline;
+        }
+
+        #finder
+        {
+            float: left;
+            height: 40px;
+            margin-top: 5px;
+        }
+        #red-menu-bar
+        {
+            background-color: rgb(128, 16, 16);
+            width:100%;
+            
+        }
+        #red-panels
+        {
+            width: 1200px;
+            margin: 0 auto;    
+        }
+        ul 
+        {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+
+        li 
+        {
+            float: left;
+        }
+
+        li a 
+        {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 16px;
+            text-decoration: none;
+        }
+        #main-container
+        {
+            width:1200px;
+            margin: 0px auto;
+        }
+        #main-left
+        {
+            border-right: 1px solid gray;
+            width:750px;
+            display: inline-block;
+        }
+        #main-information
+        {
+            display: inline-block;
+            vertical-align: top;
+            width:260px;
+            color:gray;
+        }
+        #bottom-links a 
+        {
+            color: black;
+            text-decoration: none;
+        }
+        #asda-image
+        {
+            display: inline-block;
+            height:250px
+        }
+        #article-hr 
+        {
+            border-top: 1px solid #a91717;
+            width: 50px;
+        }
+        #clock
+        {
+            height: 15px;
+            position: relative;
+            top: 2px;
+        }
+        .red-link
+        {
+            color:red;
+            text-decoration: none;
+            padding: 3px;
+            border-left: 1px solid gray;
+        }
+        #main-right
+        {
+            display: inline-block;
+            vertical-align: top;
+            padding-left: 25px;
+        }
+        .video-block
+        {
+            color:gray;
+            margin-bottom: 10px;
+            width: 300px;
+            height: 100px;
+        }
+        .video-img
+        {
+            vertical-align: top;
+            display: inline-block;
+            width:100px;
+        }
+        .video-block a 
+        {
+            color: black;
+            text-decoration: none;
+        }
+        .video-block a:hover 
+        {
+            color: blue;
+            text-decoration: underline;
+        }
+        .video-context
+        {
+            
+            display: inline-block;
+            width:150px;
+        }
+        .video-context h4
+        {
+            margin-top:0;
+        }
+    </style>
+</head>
+<body>
+
+    <div id = "top-bar">
+        <img id = "logo" src="images/bbc-logo.png" alt="">
+        <div id = "sign-in" class = "top-bar-panels">
+            <img id = "sign-in-image" src="images/signinimage.png" alt="">
+            <span id = "sign-in-text">Sign In</span>
+            <div id = "bell-div">
+                <img id = "wiggly-line" src="images/wigglyline.png" alt="">
+                <img id = "bell" src="images/bell.png" alt="">
+            </div>
+        </div>
+        <div class = "top-bar-panels bar-spacing">
+            News
+        </div>
+        <div class = "top-bar-panels bar-spacing">
+            Sport
+        </div>
+        <div class = "top-bar-panels bar-spacing">
+            Weather
+        </div>
+        <div class = "top-bar-panels bar-spacing">
+            iPlayer
+        </div>
+        <div class = "top-bar-panels bar-spacing">
+            TV
+        </div>
+        <div class = "top-bar-panels bar-spacing">
+            Radio
+        </div>
+        <div class = "top-bar-panels bar-spacing">
+            More
+            <img src="images/arrow.png" alt="">
+        </div>
+        <div class = "top-bar-panels bar-spacing">
+            <input id = "search-bar" type="text" placeholder="Search">
+            <input type="image" id = "loopa" src="images/loopa.png" alt="">
+        </div>
+    </div>
+    <div id = "red-bar">
+        <div id="red-top">
+            <h1> News</h1>
+            <div id = "local-news">
+                <a href="">Find Local News</a>
+                <img id = "finder" src="images/finder.png" alt="" >
+            </div> 
+        </div>
+    </div>
+    <div id = "red-menu-bar">
+        <div id = "red-panels">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">UK</a></li>
+                <li><a href="">World</a></li>
+                <li><a href="">Business</a></li>
+                <li><a href="">Politics</a></li>
+                <li><a href="">Tech</a></li>
+                <li><a href="">Science</a></li>
+                <li><a href="">Health</a></li>
+                <li><a href="">Education</a></li>
+                <li><a href="">Entertainment & Arts</a></li>
+                <li><a href="">Stories</a></li>
+                <li><a href="">Pictures</a></li>
+                <li><a href="">Videos</a></li>
+            </ul>
+        </div>
+    </div>
+    <div id = "main-container">
+        <h3>Technology</h3>
+        <div id = "main-left">
+            <h2>ASDA bug exposed payment details</h2>
+            <div id = "main-information">
+                <p>
+                Security vulnerabilities that put customers at risk have affected Asda's website 
+                for a couple of years, a security expert has revealed.
+                </p>
+                <img id = "clock" src="images/clock.png" alt="">
+                19 January 2019
+                <a class = "red-link" href="">Technology</a>
+                <hr id="article-hr" align="left">
+                <div id = "bottom-links">
+                    <p><a class = "href=""> Surveillance firm hit in hack attack</a></p>
+                    <a href=""> eBay flaw has existed for months</a>
+                </div>
+               
+            </div>
+            <img id = "asda-image" src="images/main-article-image.png" alt="">
+        </div>
+        <div id = "main-right">
+            <h3>Watch/Listen</h3>
+            <div class = "video-block">
+                <img class = "video-img" src="images/article1.png" alt="">
+                <div class = "video-context">
+                    <h4><a href="">UK science chief backs blockchains</a></h4>
+                    <img id = "clock" src="images/clock.png" alt="">
+                    19 January 2019
+                </div>
+            </div>
+            <div class = "video-block">
+                <img class = "video-img" src="images/article2.png" alt="">
+                <div class = "video-context">
+                    <h4><a href="">Drone register gives 'accountability'</a></h4>
+                    <img id = "clock" src="images/clock.png" alt="">
+                    19 January 2019
+                </div>
+            </div>
+            <div class = "video-block">
+                <img class = "video-img" src="images/article3.png" alt="">
+                <div class = "video-context">
+                    <h4><a href="">SpaceX rocket explodes during landing</a></h4>
+                    <img id = "clock" src="images/clock.png" alt="">
+                    19 January 2019
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
